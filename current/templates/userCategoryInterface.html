@@ -17,7 +17,7 @@
     />
 
     <!-- External Stylesheet -->
-    <link rel="stylesheet" href="./assets/userCategoryInterface.css" />
+    <link rel="stylesheet" href="../static/assets/userCategoryInterface.css" />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -79,7 +79,7 @@
               <a class="navbar-brand" href="#"
                 ><span class="brand-logo"
                   ><img
-                    src="./assets/skillup-logo1.png"
+                    src="../static/assets/skillup-logo1.png"
                     class="img-fluid"
                     alt="brand logo" /></span
               ></a>
@@ -103,12 +103,33 @@
               >
                 <ul class="navbar-nav fs-4 fw-bold">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#home"
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="./homepage.html"
                       >Home</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#about"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      >About</a
+                    >
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDarkDropdownMenuLink"
+                    >
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li>
+                        <a class="dropdown-item" href="./teamGalleryPage.html"
+                          >Team</a
+                        >
+                      </li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -117,13 +138,15 @@
                     <a class="nav-link" href="#admin">Admin</a>
                   </li>
                   <li class="nav-item contact-us">
-                    <a class="nav-link" href="#contact">Contact Us</a>
+                    <a class="nav-link" href="./contactUsPage.html"
+                      >Contact Us</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#faq">FAQ</a>
+                    <a class="nav-link" href="./FAQPage.html">FAQ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#login">Login</a>
+                    <a class="nav-link" href="./login.html">Login</a>
                   </li>
                 </ul>
               </div>
@@ -137,8 +160,8 @@
         <!-- ** Profile Card Section -->
         <section class="shadow" id="card-sec3">
           <div class="container mb-3">
-            <div class="row d-flex justify-content-around">
-              <div class="card p-4 mt-3 col-md-4">
+            <div class="row justify-content-center">
+              <div class="card mx-md-4 p-4 mt-3 col-md-3">
                 <div class="first">
                   <h4 class="heading">Williams Emela</h4>
                   <div
@@ -154,12 +177,12 @@
                     </div>
                   </div>
 
-                  <div class="second d-flex flex-row mt-2">
+                  <div class="second d-flex flex-row mt-2 align-items-center">
                     <div class="image mr-3">
                       <img
-                        src="./assets/images/pic-person-5.png"
+                        src="../static/assets/images/pic-person-5.png"
                         class="rounded-circle"
-                        width="60"
+                        width="50"
                       />
                     </div>
 
@@ -194,13 +217,13 @@
                   <h6>Front End Developer</h6>
                   <div class="third mt-4">
                     <button class="btn btn-block w-100">
-                      <i class="fa fa-clock-o"></i> <a href="#">Book Now</a>
+                      <i class="fa fa-clock-o"></i> <a href="#">Hire Me</a>
                     </button>
                   </div>
                 </div>
               </div>
 
-              <div class="card p-4 mt-3 col-md-4">
+              <div class="card mx-md-4 p-4 mt-3 col-md-3">
                 <div class="first">
                   <h4 class="heading">Lady Wendy</h4>
                   <div
@@ -216,18 +239,18 @@
                     </div>
                   </div>
 
-                  <div class="second d-flex flex-row mt-2">
+                  <div class="second d-flex flex-row mt-2 align-items-center">
                     <div class="image mr-3">
                       <img
-                        src="./assets/images/pic-person-5.png"
+                        src="../static/assets/images/pic-person-5.png"
                         class="rounded-circle"
-                        width="60"
+                        width="50"
                       />
                     </div>
 
                     <div class="user-profile">
                       <div class="d-flex flex-row mb-1">
-                        <h5>@ladyWendy</h5>
+                        <h5>@wendy</h5>
 
                         <div class="ratings ml-2">
                           <i class="bi bi-star-fill"></i>
@@ -256,15 +279,15 @@
                   <h6>Front End Developer</h6>
                   <div class="third mt-4">
                     <button class="btn btn-block w-100">
-                      <i class="fa fa-clock-o"></i> <a href="#">Book Now</a>
+                      <i class="fa fa-clock-o"></i> <a href="#">Hire Me</a>
                     </button>
                   </div>
                 </div>
               </div>
 
-              <div class="card p-4 mt-3 col-md-4">
+              <div class="card mx-md-4 p-4 mt-3 col-md-3">
                 <div class="first">
-                  <h4 class="heading">John Dio</h4>
+                  <h4 class="heading">John Deo</h4>
                   <div
                     class="time d-flex flex-row align-items-center justify-content-between mt-3"
                   >
@@ -278,18 +301,18 @@
                     </div>
                   </div>
 
-                  <div class="second d-flex flex-row mt-2">
+                  <div class="second d-flex flex-row mt-2 align-items-center">
                     <div class="image mr-3">
                       <img
-                        src="./assets/images/pic-person-5.png"
+                        src="../static/assets/images/pic-person-5.png"
                         class="rounded-circle"
-                        width="60"
+                        width="50"
                       />
                     </div>
 
                     <div class="user-profile">
                       <div class="d-flex flex-row mb-1">
-                        <h5>@johnDio</h5>
+                        <h5>@jonD</h5>
 
                         <div class="ratings ml-2">
                           <i class="bi bi-star-fill"></i>
@@ -318,17 +341,17 @@
                   <h6>Front End Developer</h6>
                   <div class="third mt-4">
                     <button class="btn btn-block w-100">
-                      <i class="fa fa-clock-o"></i> <a href="#">Book Now</a>
+                      <i class="fa fa-clock-o"></i> <a href="#">Hire Me</a>
                     </button>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="row d-flex justify-content-around">
-              <div class="card p-4 mt-3 col-md-4">
+            <div class="row justify-content-center">
+              <div class="card mx-md-4 p-4 mt-3 col-md-3">
                 <div class="first">
-                  <h4 class="heading">Prince Okeh</h4>
+                  <h4 class="heading">Williams Emela</h4>
                   <div
                     class="time d-flex flex-row align-items-center justify-content-between mt-3"
                   >
@@ -342,18 +365,18 @@
                     </div>
                   </div>
 
-                  <div class="second d-flex flex-row mt-2">
+                  <div class="second d-flex flex-row mt-2 align-items-center">
                     <div class="image mr-3">
                       <img
-                        src="./assets/images/pic-person-5.png"
+                        src="../static/assets/images/pic-person-5.png"
                         class="rounded-circle"
-                        width="60"
+                        width="50"
                       />
                     </div>
 
                     <div class="user-profile">
                       <div class="d-flex flex-row mb-1">
-                        <h5>@princeO</h5>
+                        <h5>@emella</h5>
 
                         <div class="ratings ml-2">
                           <i class="bi bi-star-fill"></i>
@@ -382,15 +405,15 @@
                   <h6>Front End Developer</h6>
                   <div class="third mt-4">
                     <button class="btn btn-block w-100">
-                      <i class="fa fa-clock-o"></i> <a href="#">Book Now</a>
+                      <i class="fa fa-clock-o"></i> <a href="#">Hire Me</a>
                     </button>
                   </div>
                 </div>
               </div>
 
-              <div class="card p-4 mt-3 col-md-4">
+              <div class="card mx-md-4 p-4 mt-3 col-md-3">
                 <div class="first">
-                  <h4 class="heading">Ella Korie</h4>
+                  <h4 class="heading">Lady Wendy</h4>
                   <div
                     class="time d-flex flex-row align-items-center justify-content-between mt-3"
                   >
@@ -404,18 +427,18 @@
                     </div>
                   </div>
 
-                  <div class="second d-flex flex-row mt-2">
+                  <div class="second d-flex flex-row mt-2 align-items-center">
                     <div class="image mr-3">
                       <img
-                        src="./assets/images/pic-person-5.png"
+                        src="../static/assets/images/pic-person-5.png"
                         class="rounded-circle"
-                        width="60"
+                        width="50"
                       />
                     </div>
 
                     <div class="user-profile">
                       <div class="d-flex flex-row mb-1">
-                        <h5>@DanTower</h5>
+                        <h5>@wendy</h5>
 
                         <div class="ratings ml-2">
                           <i class="bi bi-star-fill"></i>
@@ -444,15 +467,15 @@
                   <h6>Front End Developer</h6>
                   <div class="third mt-4">
                     <button class="btn btn-block w-100">
-                      <i class="fa fa-clock-o"></i> <a href="#">Book Now</a>
+                      <i class="fa fa-clock-o"></i> <a href="#">Hire Me</a>
                     </button>
                   </div>
                 </div>
               </div>
 
-              <div class="card p-4 mt-3 col-md-4">
+              <div class="card mx-md-4 p-4 mt-3 col-md-3">
                 <div class="first">
-                  <h4 class="heading">Success Chikezie</h4>
+                  <h4 class="heading">John Deo</h4>
                   <div
                     class="time d-flex flex-row align-items-center justify-content-between mt-3"
                   >
@@ -466,18 +489,18 @@
                     </div>
                   </div>
 
-                  <div class="second d-flex flex-row mt-2">
+                  <div class="second d-flex flex-row mt-2 align-items-center">
                     <div class="image mr-3">
                       <img
-                        src="./assets/images/pic-person-5.png"
+                        src="../static/assets/images/pic-person-5.png"
                         class="rounded-circle"
-                        width="60"
+                        width="50"
                       />
                     </div>
 
                     <div class="user-profile">
                       <div class="d-flex flex-row mb-1">
-                        <h5>@Succy</h5>
+                        <h5>@jonD</h5>
 
                         <div class="ratings ml-2">
                           <i class="bi bi-star-fill"></i>
@@ -506,7 +529,195 @@
                   <h6>Front End Developer</h6>
                   <div class="third mt-4">
                     <button class="btn btn-block w-100">
-                      <i class="fa fa-clock-o"></i> <a href="#">Book Now</a>
+                      <i class="fa fa-clock-o"></i> <a href="#">Hire Me</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="card mx-md-4 p-4 mt-3 col-md-3">
+                <div class="first">
+                  <h4 class="heading">Williams Emela</h4>
+                  <div
+                    class="time d-flex flex-row align-items-center justify-content-between mt-3"
+                  >
+                    <div class="d-flex align-items-center">
+                      <i class="fa fa-clock-o clock"></i>
+                      <span class="hour ml-1 fw-bold">3 hrs</span>
+                    </div>
+
+                    <div>
+                      <span class="fw-bold text-danger">Active</span>
+                    </div>
+                  </div>
+
+                  <div class="second d-flex flex-row mt-2 align-items-center">
+                    <div class="image mr-3">
+                      <img
+                        src="../static/assets/images/pic-person-5.png"
+                        class="rounded-circle"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="user-profile">
+                      <div class="d-flex flex-row mb-1">
+                        <h5>@emella</h5>
+
+                        <div class="ratings ml-2">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                        </div>
+                      </div>
+
+                      <div>
+                        <button class="btn btn-outline-success btn-sm px-2">
+                          + follow
+                        </button>
+                        <button class="btn btn-outline-success btn-sm">
+                          See Profile
+                        </button>
+                        <button class="btn btn-outline-success btn-sm">
+                          <i class="fa fa-comment-o"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr class="line-color" />
+
+                  <h6>Front End Developer</h6>
+                  <div class="third mt-4">
+                    <button class="btn btn-block w-100">
+                      <i class="fa fa-clock-o"></i> <a href="#">Hire Me</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mx-md-4 p-4 mt-3 col-md-3">
+                <div class="first">
+                  <h4 class="heading">Lady Wendy</h4>
+                  <div
+                    class="time d-flex flex-row align-items-center justify-content-between mt-3"
+                  >
+                    <div class="d-flex align-items-center">
+                      <i class="fa fa-clock-o clock"></i>
+                      <span class="hour ml-1 fw-bold">3 hrs</span>
+                    </div>
+
+                    <div>
+                      <span class="fw-bold text-danger">Active</span>
+                    </div>
+                  </div>
+
+                  <div class="second d-flex flex-row mt-2 align-items-center">
+                    <div class="image mr-3">
+                      <img
+                        src="../static/assets/images/pic-person-5.png"
+                        class="rounded-circle"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="user-profile">
+                      <div class="d-flex flex-row mb-1">
+                        <h5>@wendy</h5>
+
+                        <div class="ratings ml-2">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                        </div>
+                      </div>
+
+                      <div>
+                        <button class="btn btn-outline-success btn-sm px-2">
+                          + follow
+                        </button>
+                        <button class="btn btn-outline-success btn-sm">
+                          See Profile
+                        </button>
+                        <button class="btn btn-outline-success btn-sm">
+                          <i class="fa fa-comment-o"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr class="line-color" />
+
+                  <h6>Front End Developer</h6>
+                  <div class="third mt-4">
+                    <button class="btn btn-block w-100">
+                      <i class="fa fa-clock-o"></i> <a href="#">Hire Me</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mx-md-4 p-4 mt-3 col-md-3">
+                <div class="first">
+                  <h4 class="heading">John Deo</h4>
+                  <div
+                    class="time d-flex flex-row align-items-center justify-content-between mt-3"
+                  >
+                    <div class="d-flex align-items-center">
+                      <i class="fa fa-clock-o clock"></i>
+                      <span class="hour ml-1 fw-bold">3 hrs</span>
+                    </div>
+
+                    <div>
+                      <span class="fw-bold text-danger">Active</span>
+                    </div>
+                  </div>
+
+                  <div class="second d-flex flex-row mt-2 align-items-center">
+                    <div class="image mr-3">
+                      <img
+                        src="../static/assets/images/pic-person-5.png"
+                        class="rounded-circle"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="user-profile">
+                      <div class="d-flex flex-row mb-1">
+                        <h5>@jonD</h5>
+
+                        <div class="ratings ml-2">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                        </div>
+                      </div>
+
+                      <div>
+                        <button class="btn btn-outline-success btn-sm px-2">
+                          + follow
+                        </button>
+                        <button class="btn btn-outline-success btn-sm">
+                          See Profile
+                        </button>
+                        <button class="btn btn-outline-success btn-sm">
+                          <i class="fa fa-comment-o"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr class="line-color" />
+
+                  <h6>Front End Developer</h6>
+                  <div class="third mt-4">
+                    <button class="btn btn-block w-100">
+                      <i class="fa fa-clock-o"></i> <a href="#">Hire Me</a>
                     </button>
                   </div>
                 </div>
@@ -515,9 +726,9 @@
           </div>
         </section>
         <!-- ** Horizontal rule -->
-        <div class="h-rule mb-4">
+        <!-- <div class="h-rule mb-4">
           <hr />
-        </div>
+        </div> -->
       </div>
     </main>
 
